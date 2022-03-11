@@ -1,0 +1,241 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: #fffffF;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 180%;
+}
+
+.logo-header img {
+    margin-left: 63%;
+  width: 120px;
+}
+
+.header {
+    background-image: linear-gradient(#b20a2c,#ee9ca7, #ffdde1 );
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem 2rem;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.nav-menu ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu li {
+  margin-right: 1.5rem;
+  color: black;
+}
+.nav-menu a {
+  color: black;
+}
+.nav-menu a:hover {
+  color: white;
+  background-color: #b20a2c;
+  border: 2px solid #b20a2c;
+  padding: 0.24rem 0.75rem;
+  border-radius: 0.3rem;
+}
+
+.nav-menu li:last-child {
+  background-color: #b20a2c;
+  border: 2px solid #b20a2c;
+
+  padding: 0.3rem;
+  border-radius: 0.2rem;
+}
+
+.nav-menu li:last-child:hover {
+  border: 2px solid #b20a2c;
+  ;
+}
+
+.bienvenidos {
+    display: block;
+    width: 400px;
+    margin-left: 1%;
+  text-align: center;
+  background-color: rgba(252, 221, 238, 0.562);
+  font-family: "Oleo Script";
+  color: #b20a2c;
+  
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+ 
+
+}
+.descripcion {
+  text-align: center;
+}
+.contenido {
+  margin: auto;
+  width: 1300px;
+  height: auto;
+  background-color: #ffe92686; 
+  border-radius: 10px ;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.pasteles1 {
+    display: flex;
+  justify-content: space-between;
+}
+.pasteles2 {
+    display: flex;
+  justify-content: space-between;
+}
+.seccionPasteles {
+    height: 100%;
+    width: 50%;
+  align-items: center;
+  padding: 0.3rem 2rem;
+}
+.fotopastel{
+  padding: 0.3rem 2rem;
+   
+}
+
+#imagen {
+  border-radius: 10px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.aside{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(252, 239, 246);
+    border-radius: 1em #000000;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: solid 3px #b20a2c;
+    text-align: center;
+}
+
+.form-pedido {
+  margin: auto;
+  display: block;
+  background-image: linear-gradient(#ffffff,#ee9ca7, #b20a2c );
+  text-align: center;
+  font-size: 1.2rem;
+  width: 600px;
+  min-width: 500px;
+  border-radius: 10px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border: solid 3px #b20a2c;
+}
+
+.form-pedido img {
+  width: 150px;
+  display: block;
+  margin: 20px auto;
+}
+
+.text {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 25px;
+}
+
+.form-pedido input {
+  display: block;
+  margin: auto;
+  height: 40px;
+  width: 75%;
+  padding-left: 10px;
+  color: #555555;
+  border: 1px solid rgb(10, 10, 10);
+  border-radius: 2px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: antiquewhite;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.form-pedido select {
+  display: block;
+  margin: auto;
+  height: 40px;
+  width: 75%;
+  padding-left: 10px;
+  color: #555555;
+  border: 1px solid rgb(10, 10, 10);
+  border-radius: 2px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: antiquewhite;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 1rem;
+  outline: none;
+}
+.form-pedido input:hover {
+  transition: 0.5s;
+  border: 3px solid #b20a2c;
+}
+.form-pedido select:hover {
+  transition: 0.5s;
+  border: 3px solid #b20a2c;
+}
+
+.form-pedido button {
+  display: block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #000000;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  height: 40px;
+  width: 78%;
+  background-color: #ffffff;
+  border-radius: 2px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.5s;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.form-pedido button:hover {
+  color: #b20a2c;
+  border: 2px solid #d9a7c7;
+  background-color: #f3d6e9;
+}
+
+.footer {
+  height: 20%;
+  text-align: center;
+  padding: 2%;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.87);
+}
+.privacidad {
+  font-size: 1rem;
+}
+
+.inventario table{
+border: #000000;
+}

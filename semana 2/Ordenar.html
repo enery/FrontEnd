@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordenar</title>
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo-header">
+            <img src="./assets/img/CandyCake.png" alt="">
+        </div>
+        <nav class="nav-menu">
+            <ul>
+                <li> <a href="index.html">Inicio</a></li>
+                <li> <a href="Ordenar.html">Ordenar</a></li>
+                <li> <a href="admin.html">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2 class="bienvenidos">Candy Cake</h2>
+    <br> <br>
+
+    <div class="form-pedido">
+        <img src="./assets/img/CandyCake.png" alt="CandyCake logo">
+        <p class="text">Ingresa los datos solicitados para realizar tu pedido</p>
+        <form action="formulario">
+            <label for="Nombre">Ingresa tu nombre: </label> <br>
+            <input type="text" id="Nombre" name="Nombre" placeholder="Nombre"><br>
+            <label for="Telefono">Telefono: </label> <br>
+            <input type="text" id="Telefono" name="Telefono" placeholder="Telefono"><br>
+            <label for="Sabor">Sabor del pan: </label><br>
+            <select name="pan" id="pan">
+                <option value="Seleccione">Seleccione</option>
+                <option value="Vainilla">Vainilla</option>
+                <option value="Chocolate">Chocolate</option>
+                <option value="Tres Leches">Tres Leches</option>
+                <option value="Fresa">Fresa</option>
+                <option value="Red Velvet">Red Velvet</option>
+                <option value="ChesseCake">ChesseCake</option>
+
+            </select>
+            <br>
+
+            <label for="Sabor">Sabor del betun: </label><br>
+            <select name="betun" id="betun">
+                <option value="Seleccione">Seleccione</option>
+                <option value="Philadelphia">Philadelphia</option>
+                <option value="Mantequilla">Mantequilla</option>
+                <option value="Chantilly">Chantilly</option>
+                <option value="Nutella">Nutella</option>
+            </select>
+            <br>
+
+            <label for="Sabor">Sabor del Merengue/Relleno: </label><br>
+            <select name="relleno" id="relleno">
+                <option value="Seleccione">Seleccione</option>
+                <option value="mermelada fresa">mermelada fresa</option>
+                <option value="mermelada piña">mermelada piña</option>
+                <option value="cajeta">Cajeta</option>
+                <option value="Nutella">Nutella</option>
+                <option value="Crema de cacahuate">Crema de cacahuate</option>
+            </select>
+            <br>
+
+            <label for="Adornos">Cake Topper $50</label> <br>
+            <select name="Cake Topper" id="Cake topper">
+                <option value="Seleccione">Seleccione</option>
+                <option value="Felicidades">Felicidades</option>
+                <option value="Feliz cumpleaños">Feliz cumpleaños</option>
+                <option value="Boda">boda</option>
+                <option value="Baby Shower">Baby Shower</option>
+                <option value="Aniversario">Aniversario</option>
+                <option value="Ninguno">Ninguno</option>
+
+            </select> 
+            <br>
+
+            <label for="Adornos">Toppings $35</label> <br>
+            <select name="Toppings" id="Toppings">
+                <option value="Seleccione">Seleccione</option>
+                <option value="Frutas">Frutas</option>
+                <option value="Galletas">Galletas</option>
+                <option value="Fondant">Fondant</option>
+                <option value="Ninguno">Ninguno</option>
+            </select>
+            <br>
+
+            <label for="Velas">Velas $32</label> <br>
+            <select name="Velas" id="Velas">
+                <option value="Seleccione">Seleccione</option>
+                <option value="Frutas">Velas de Numero</option>
+                <option value="Galletas">Velas de chispas</option>
+                <option value="Ninguno">Ninguno</option>
+            </select>
+
+            <br>
+            <label for="CantidadPersonas">¿Para cuantas personas?</label> <br>
+            <input type="number" name="cantidad" id="cantidad" placeholder="100">
+            <br><br>
+            <label for="Fecha">Día y hora a recoger</label><br>
+            <input type="text" name="fecha" id="fecha" placeholder="Indique día y hora"> <br>
+            <form action="/index.html">
+                <button > Ordenar</button>
+            </form>
+            <br><br>
+        </form>
+    </div>
+    <br> <br>
+    <div class="footer">
+        <footer>
+            <p>Dirección: Av. Reforma Local #2 Col.Moderna Centro C.P 85390 Sonora</p>
+            <p class="privacidad">2020 | Aviso de Privacidad | Contacto </p>
+        </footer>
+    </div>
+</body>
+
+</html>
